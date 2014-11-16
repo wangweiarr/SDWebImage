@@ -72,6 +72,8 @@
  */
 - (void)sd_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder;
 
+- (void)sd_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder beforehand:(SDWebImageBeforehandBlock)beforehandBlock;
+
 /**
  * Set the imageView `image` with an `url`, placeholder and custom options.
  *
